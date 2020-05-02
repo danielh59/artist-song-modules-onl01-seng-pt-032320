@@ -21,13 +21,9 @@ class Song
     @@songs
   end
 
-  # def self.reset_all
-  #   self.all.clear
-  # end
-  #
-  # def self.count
-  #   self.all.count
-  # end
+  def find_by_name(name)
+      @@songs.detect{|a| a.name == name}
+  end
 
   def artist=(artist)
     @artist = artist
