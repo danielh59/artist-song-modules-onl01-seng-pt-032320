@@ -1,5 +1,4 @@
 require 'pry'
-# require '../concerns/memorable.rb'
 
 class Artist
   extend Memorable
